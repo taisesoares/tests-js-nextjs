@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -16,8 +18,15 @@
     "tailwindcss": "^1.7.4"
   },
   "devDependencies": {
+    "@testing-library/dom": "^8.11.3",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "babel-jest": "^27.5.1",
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0",
+    "jest-cli": "^27.5.1",
+    "jest-dom": "^4.0.0",
     "postcss-flexbugs-fixes": "4.2.1",
     "postcss-preset-env": "^6.7.0"
   }
